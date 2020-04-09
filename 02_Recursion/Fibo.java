@@ -4,7 +4,7 @@ public class Fibo {
 		int i;
 		for (i=1; i<=15; i++) {
 			System.out.println(fibo(i));
-			//static fn can directly call static fn
+			//static function can directly call static function
 		}		
 	}
 	public static int fibo(int n) {
