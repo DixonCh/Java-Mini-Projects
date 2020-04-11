@@ -4,12 +4,10 @@
 */
 
 public class ClassEx {
-	
 	public static void main(String[] args)  {
 		Student s = new Student();
-		s.InputRecord(1, "Hari", "BE", "A");
+		s.InputRecord(1, "John", "IT", "A");
 		s.displayRecord();
-		
 	}
 
 }
