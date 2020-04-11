@@ -1,3 +1,5 @@
+//Program to show the exception
+
 public class Exception {
 	public static void main(String[] args) {
 		try {
