@@ -9,8 +9,10 @@ import java.util.StringTokenizer;
 public class TokenEx {
 
 	public static void main(String[] args) throws IOException {
-		File file = new File("D:\\xyz.txt");
+		//Specify the file location here
+		File file = new File("E:\xyz.txt");
 		FileReader f = new FileReader(file);
+		
 		if (file.exists()) {
 			BufferedReader br = new BufferedReader(f);
 			String line = br.readLine();
