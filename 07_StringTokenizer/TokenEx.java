@@ -13,10 +13,11 @@ public class TokenEx {
 		File file = new File("E:\xyz.txt");
 		FileReader f = new FileReader(file);
 		
+		//Read the file if it exists
 		if (file.exists()) {
 			BufferedReader br = new BufferedReader(f);
 			String line = br.readLine();
-
+		
 			while (line != null) {
 				StringTokenizer st = new StringTokenizer(line, " : ");
 				System.out.println("ID: " + st.nextToken());
