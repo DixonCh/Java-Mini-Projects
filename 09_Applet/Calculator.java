@@ -1,3 +1,5 @@
+//Program to demonastrate the example of Applet
+
 import java.applet.Applet;
 import java.awt.Button;
 import java.awt.GridLayout;
@@ -86,10 +88,8 @@ public class Calculator extends Applet implements ActionListener {
 				double x = Integer.parseInt(fNo.getText());
 				double y = Integer.parseInt(sNo.getText());
 				showres.setText(Double.toString(x / y));
-
 			}
 		});
-
 		exit.addActionListener(this);
 	}
 
