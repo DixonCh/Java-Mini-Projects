@@ -1,5 +1,6 @@
-package Applet;
+//Program to show the example of Applet
 
+package Applet;
 import java.applet.*;
 import java.awt.*;
 
