@@ -1,4 +1,5 @@
-//Program to tokenize the string
+//Program to tokenize the string in Java
+
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -37,5 +38,4 @@ public class TokenEx {
 		}
 
 	}
-
 }
